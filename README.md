@@ -1,7 +1,7 @@
 # database-maintenance
 This Python script provides a series of ArcPy functions to perform routine database maintenance on a Spatial Database Engine (SDE) geodatabase. This includes blocking and disconnecting all connections, reconciling all versions, compressing the database, rebuilding indexes on system tables, updating statistics, and allowing connections again.
 
-# Detailed Explanation
+# Explanation
   The script begins by setting up a logging functionality to track the script's progress. Logs are written to a file and saved in a specified directory.
  
   A function set_up_workspace is defined to set the workspace environment.
